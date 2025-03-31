@@ -13,9 +13,6 @@ export function Input(){
         if(input === "") return
 
         router.push(`/game/search/${input}`)
-
-
-
     }
 
 return(
