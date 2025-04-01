@@ -1,4 +1,4 @@
-export interface GamaProps {
+export interface GameProps {
     id: number;
     title: string;
     description: string;
