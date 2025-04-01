@@ -18,8 +18,22 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DalyGames",
+  title: "Daly Games - Descubra jogos Incríveis",
   description: "Seu site de conteudo de Jogos",
+  keywords: ['games', 'jogos', 'steam'],
+  openGraph: {
+    images: [`${process.env.PROJECT_URL}.preview.png`],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: true,
+    }
+  }
 };
 
 export default function RootLayout({
