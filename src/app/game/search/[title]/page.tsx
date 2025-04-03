@@ -31,7 +31,7 @@ export default async function Search({params: { title } }: {
                 <h1 className='font-bold text-xl mt-8 mb-5'>Veja oque encontramos na nossa base:</h1>
 
                 {!games && (
-                    <p>Esse jogo ão foi encontrado</p>
+                    <p>Esse jogo não foi encontrado</p>
                 )}
 
                 <section className="grid gap-7 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
